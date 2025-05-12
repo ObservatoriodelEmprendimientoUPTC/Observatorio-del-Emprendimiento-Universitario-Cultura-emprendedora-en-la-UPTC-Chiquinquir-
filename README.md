@@ -2,180 +2,98 @@
 El Observatorio del Emprendimiento Universitario de la UPTC - Facultad Seccional Chiquinquirá promueve la cultura emprendedora mediante el análisis de datos, generación de conocimiento y articulación regional, ofreciendo recursos y herramientas para potenciar emprendimientos con impacto.
 <!DOCTYPE html>
 <html lang="es">
- <head>
-  <meta charset="utf-8"/>
-  <title>
-   Observatorio del Emprendimiento
-  </title>
- </head>
- <body>
-  <section id="sobre-nosotros" style="padding: 40px 20px; background-color: #fefefe;">
-   <h2 style="text-align:center;">
-    Sobre Nosotros
-   </h2>
-   <p style="max-width: 800px; margin: auto; text-align: center;">
-    Somos el Observatorio del Emprendimiento Universitario de la UPTC, Facultad Seccional Chiquinquirá. Nuestra misión es fomentar la cultura emprendedora en la región, analizando tendencias y facilitando recursos clave para emprendedores.
-   </p>
-   <div style="display: flex; justify-content: space-around; margin-top: 30px; flex-wrap: wrap;">
-    <div style="max-width: 300px;">
-     <h3>
-      Misión
-     </h3>
-     <p>
-      Impulsar el desarrollo emprendedor mediante la inteligencia de datos y la articulación del ecosistema regional.
-     </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Observatorio del Emprendimiento Universitario</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #fff;
+      color: #333;
+    }
+    header {
+      background-image: url('https://i.imgur.com/FWNhG2u.jpg');
+      background-size: cover;
+      background-position: center;
+      padding: 60px 20px;
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+      margin: 20px 0;
+    }
+    .cta-buttons {
+      margin-top: 20px;
+    }
+    .cta-buttons a {
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin: 5px;
+      border-radius: 5px;
+    }
+    .stats {
+      display: flex;
+      justify-content: space-around;
+      padding: 40px 20px;
+      background-color: #f4f4f4;
+    }
+    .stats div {
+      text-align: center;
+    }
+    .testimonios {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .testimonios blockquote {
+      font-style: italic;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Fomentando la cultura emprendedora en la UPTC</h1>
+    <p>Un observatorio para impulsar la innovación y el crecimiento empresarial regional</p>
+    <div class="cta-buttons">
+      <a href="#">Regístrate como emprendedor</a>
+      <a href="#">Accede a nuestros informes</a>
+      <a href="#">Eventos y convocatorias</a>
     </div>
-    <div style="max-width: 300px;">
-     <h3>
-      Visión
-     </h3>
-     <p>
-      Ser un referente nacional en análisis de emprendimiento universitario y herramientas de apoyo a emprendedores.
-     </p>
+  </header>
+
+  <section class="stats">
+    <div>
+      <h2>312</h2>
+      <p>Emprendimientos registrados</p>
     </div>
-    <div style="max-width: 300px;">
-     <h3>
-      Equipo
-     </h3>
-     <p>
-      Investigadores, docentes y aliados estratégicos comprometidos con el crecimiento del emprendimiento.
-     </p>
+    <div>
+      <h2>Sectores predominantes</h2>
+      <p>Tecnología, Comercio</p>
     </div>
-   </div>
+    <div>
+      <h2>$5.8M</h2>
+      <p>Impacto económico</p>
+    </div>
   </section>
-  <section id="inteligencia-negocios" style="padding: 40px 20px; background-color: #f4f4f4;">
-   <h2 style="text-align:center;">
-    Inteligencia de Negocios y Análisis de Datos
-   </h2>
-   <ul style="max-width: 800px; margin: auto;">
-    <li>
-     <strong>
-      Tendencias del emprendimiento:
-     </strong>
-     Análisis de sectores en crecimiento y nuevas oportunidades.
-    </li>
-    <li>
-     <strong>
-      Mapeo de emprendimientos:
-     </strong>
-     Visualización interactiva de emprendimientos en la región.
-    </li>
-    <li>
-     <strong>
-      Indicadores de desempeño:
-     </strong>
-     Informes sobre impacto social, económico y ambiental.
-    </li>
-    <li>
-     <strong>
-      Dashboard interactivo:
-     </strong>
-     Gráficos y datos clave para la toma de decisiones estratégicas.
-    </li>
-   </ul>
+
+  <section class="testimonios">
+    <h2>Testimonios</h2>
+    <blockquote>
+      “El observatorio ha sido una herramienta invaluable para el crecimiento de nuestra empresa. Gracias a los recursos y análisis proporcionados, hemos logrado alcanzar nuevos mercados y mejorar nuestra calidad.”
+      <br><br>— Ana Rodríguez, Fundadora de EcoSolutions
+    </blockquote>
   </section>
-  <section id="recursos" style="padding: 40px 20px;">
-   <h2 style="text-align:center;">
-    Recursos para Emprendedores
-   </h2>
-   <ul style="max-width: 800px; margin: auto;">
-    <li>
-     <strong>
-      Biblioteca digital:
-     </strong>
-     Acceso a artículos, libros y documentos clave.
-    </li>
-    <li>
-     <strong>
-      Herramientas:
-     </strong>
-     Plantillas CANVAS, Lean Startup y Design Thinking.
-    </li>
-    <li>
-     <strong>
-      Cursos:
-     </strong>
-     Capacitaciones en gestión empresarial, innovación y financiamiento.
-    </li>
-    <li>
-     <strong>
-      Casos de éxito:
-     </strong>
-     Historias inspiradoras de emprendedores locales.
-    </li>
-   </ul>
-  </section>
-  <section id="eventos" style="padding: 40px 20px; background-color: #f4f4f4;">
-   <h2 style="text-align:center;">
-    Convocatorias y Eventos
-   </h2>
-   <ul style="max-width: 800px; margin: auto;">
-    <li>
-     <strong>
-      Concursos y premios:
-     </strong>
-     Hackatones, incubadoras y aceleradoras.
-    </li>
-    <li>
-     <strong>
-      Eventos académicos:
-     </strong>
-     Charlas, seminarios y ferias de emprendimiento.
-    </li>
-    <li>
-     <strong>
-      Financiamiento:
-     </strong>
-     Programas de inversión y subsidios disponibles.
-    </li>
-   </ul>
-  </section>
-  <section id="comunidad" style="padding: 40px 20px;">
-   <h2 style="text-align:center;">
-    Comunidad y Networking
-   </h2>
-   <ul style="max-width: 800px; margin: auto;">
-    <li>
-     <strong>
-      Foro:
-     </strong>
-     Espacio para compartir ideas y resolver dudas.
-    </li>
-    <li>
-     <strong>
-      Directorio:
-     </strong>
-     Base de datos de startups y empresas emergentes.
-    </li>
-    <li>
-     <strong>
-      Mentores:
-     </strong>
-     Listado de expertos disponibles para orientación.
-    </li>
-    <li>
-     <strong>
-      Casos de éxito:
-     </strong>
-     Experiencias destacadas de emprendedores UPTC.
-    </li>
-   </ul>
-  </section>
-  <section id="contacto" style="padding: 40px 20px; background-color: #f4f4f4;">
-   <h2 style="text-align:center;">
-    Contacto
-   </h2>
-   <form style="max-width: 600px; margin: auto;">
-    <input placeholder="Nombre" required="" style="width: 100%; padding: 10px; margin-bottom: 10px;" type="text"/>
-    <input placeholder="Correo electrónico" required="" style="width: 100%; padding: 10px; margin-bottom: 10px;" type="email"/>
-    <textarea placeholder="Mensaje" required="" rows="5" style="width: 100%; padding: 10px; margin-bottom: 10px;"></textarea>
-    <button style="padding: 10px 20px; background: #007BFF; color: white; border: none; border-radius: 5px;" type="submit">
-     Enviar
-    </button>
-   </form>
-   <p style="text-align:center; margin-top: 20px;">
-    Síguenos en redes: LinkedIn | Instagram | Facebook
-   </p>
-  </section>
- </body>
+
+</body>
 </html>
